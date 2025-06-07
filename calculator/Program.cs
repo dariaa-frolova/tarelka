@@ -9,6 +9,7 @@ namespace calculator
     class Program
     {
         static double Add(double a, double b) => a + b;
+        static double Subtract(double a, double b) => a - b;
         static void Main(string[] args)
         {
             Console.WriteLine("Калькулятор");
@@ -26,9 +27,9 @@ namespace calculator
             double b = Convert.ToDouble(Console.ReadLine());
 
             if (op == 1)
-            {
-                Console.WriteLine($"Результат: {Add(a, b)}");
-            }
+                Console.WriteLine($"Результат сложения: {Add(a, b)}");
+            else if (op == 2)
+                Console.WriteLine($"Результат вычитания: {Subtract(a, b)}");
         }
     }
 }
