@@ -11,6 +11,7 @@ namespace calculator
         static double Add(double a, double b) => a + b;
         static double Subtract(double a, double b) => a - b;
         static double Multiply(double a, double b) => a * b;
+        static double Divide(double a, double b) => b == 0 ? double.NaN : a / b;
         static void Main(string[] args)
         {
             Console.WriteLine("Калькулятор");
@@ -32,7 +33,9 @@ namespace calculator
             else if (op == 2)
                 Console.WriteLine($"Результат вычитания: {Subtract(a, b)}");
             else if (op == 3)
-                Console.WriteLine($"Результат сложения: {Multiply(a, b)}");
+                Console.WriteLine($"Результат умножения: {Multiply(a, b)}");
+            else if (op == 4)
+                Console.WriteLine($"Результат деления: {Divide(a, b)}");
             else Console.WriteLine("Нет такой операции");
         }
     }
