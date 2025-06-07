@@ -10,6 +10,7 @@ namespace calculator
     {
         static double Add(double a, double b) => a + b;
         static double Subtract(double a, double b) => a - b;
+        static double Multiply(double a, double b) => a * b;
         static void Main(string[] args)
         {
             Console.WriteLine("Калькулятор");
@@ -30,6 +31,9 @@ namespace calculator
                 Console.WriteLine($"Результат сложения: {Add(a, b)}");
             else if (op == 2)
                 Console.WriteLine($"Результат вычитания: {Subtract(a, b)}");
+            else if (op == 3)
+                Console.WriteLine($"Результат сложения: {Multiply(a, b)}");
+            else Console.WriteLine("Нет такой операции");
         }
     }
 }
