@@ -1,0 +1,7 @@
+D:\3 курс\практика забусов\calculator\calculator\bin\Debug\calculator.exe.config
+D:\3 курс\практика забусов\calculator\calculator\bin\Debug\calculator.exe
+D:\3 курс\практика забусов\calculator\calculator\bin\Debug\calculator.pdb
+D:\3 курс\практика забусов\calculator\calculator\obj\Debug\calculator.csproj.AssemblyReference.cache
+D:\3 курс\практика забусов\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+D:\3 курс\практика забусов\calculator\calculator\obj\Debug\calculator.exe
+D:\3 курс\практика забусов\calculator\calculator\obj\Debug\calculator.pdb

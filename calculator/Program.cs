@@ -8,6 +8,7 @@ namespace calculator
 {
     class Program
     {
+        static double Add(double a, double b) => a + b;
         static void Main(string[] args)
         {
             Console.WriteLine("Калькулятор");
@@ -24,7 +25,10 @@ namespace calculator
             Console.Write("Введите второе число: ");
             double b = Convert.ToDouble(Console.ReadLine());
 
-            
+            if (op == 1)
+            {
+                Console.WriteLine($"Результат: {Add(a, b)}");
+            }
         }
     }
 }
